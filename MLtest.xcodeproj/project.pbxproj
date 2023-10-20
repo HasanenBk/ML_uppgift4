@@ -11,6 +11,8 @@
 		06E59C722AE1D04400C4EFBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E59C712AE1D04400C4EFBC /* ContentView.swift */; };
 		06E59C742AE1D04500C4EFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E59C732AE1D04500C4EFBC /* Assets.xcassets */; };
 		06E59C772AE1D04500C4EFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E59C762AE1D04500C4EFBC /* Preview Assets.xcassets */; };
+		06E59C7E2AE1D20C00C4EFBC /* MobileNetV2FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 06E59C7D2AE1D20C00C4EFBC /* MobileNetV2FP16.mlmodel */; };
+		06E59C802AE1D35700C4EFBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E59C7F2AE1D35700C4EFBC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		06E59C712AE1D04400C4EFBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06E59C732AE1D04500C4EFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E59C762AE1D04500C4EFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06E59C7D2AE1D20C00C4EFBC /* MobileNetV2FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2FP16.mlmodel; sourceTree = "<group>"; };
+		06E59C7F2AE1D35700C4EFBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				06E59C6F2AE1D04400C4EFBC /* MLtestApp.swift */,
 				06E59C712AE1D04400C4EFBC /* ContentView.swift */,
+				06E59C7F2AE1D35700C4EFBC /* Model.swift */,
 				06E59C732AE1D04500C4EFBC /* Assets.xcassets */,
+				06E59C7D2AE1D20C00C4EFBC /* MobileNetV2FP16.mlmodel */,
 				06E59C752AE1D04500C4EFBC /* Preview Content */,
 			);
 			path = MLtest;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06E59C722AE1D04400C4EFBC /* ContentView.swift in Sources */,
+				06E59C7E2AE1D20C00C4EFBC /* MobileNetV2FP16.mlmodel in Sources */,
 				06E59C702AE1D04400C4EFBC /* MLtestApp.swift in Sources */,
+				06E59C802AE1D35700C4EFBC /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
